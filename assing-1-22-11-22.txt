@@ -1,0 +1,28 @@
+sno=int(input('enter student number:'))
+name=input('enter student name:')
+g=input('enter gender:')
+gr=input('enter group:')
+ad=input('enter address:')
+ph=int(input('enter phone number:'))
+print('**Student details**')
+print('Sno:',sno)
+print('Name:',name)
+print('Gender:',g)
+print('Group:',gr)
+print('Address:',ad)
+print('Phone nmber:',ph)
+
+output:
+enter student number:09
+enter student name:jaya
+enter gender:Female
+enter group:BCA
+enter address:gopalapatnam
+enter phone number:999999999
+**Student details**
+Sno: 09
+Name: jaya
+Gender: Female
+Group: BCA
+Address: gopalapatnam
+Phone number: 9999999999

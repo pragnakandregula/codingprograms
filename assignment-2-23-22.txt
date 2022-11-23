@@ -1,0 +1,11 @@
+//equal of 2 num//
+a=int(input())
+b=int(input())
+if a==b:
+    print("equal")
+else:
+    print("not equal")
+output :
+4
+4
+equal

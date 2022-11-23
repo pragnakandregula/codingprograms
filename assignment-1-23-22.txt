@@ -1,0 +1,11 @@
+//biggest of 2 num//
+a=int(input())
+b=int(input())
+if a>b:
+    print('a is big')
+else:
+    print('b is big')
+//output//
+ 35
+245
+b is big
