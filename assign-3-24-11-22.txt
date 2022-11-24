@@ -1,0 +1,24 @@
+sno=int(input("enter the id" ))
+sname=input("enter the student name")
+group=input("enter the group")
+s1=int(input("enter marks obtained in maths"))
+s2=int(input("enter  marks obtained in cs" ))
+s3=int(input("enter marks obtained in phy"))
+print('sno:',sno)
+print('name:',sname)
+print('group:',group)
+print('pass') if s1>=35 and s2>=35 and s3>=35 else print('fail')
+
+
+
+Output:
+enter the id 44 
+enter the student name pragna
+enter the group bca
+enter marks obtained in maths36
+enter  marks obtained in cs75
+enter marks obtained in phy49
+sno: 44
+name: pragna
+group: bca
+pass
