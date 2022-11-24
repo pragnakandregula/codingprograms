@@ -1,0 +1,20 @@
+//relational operators//
+a = 20  
+b = 10  
+d = 30  
+  
+c = a + b  
+e = d - b  
+print ("The sum of a and b is ", c) 
+The sum of a and b is  30
+print ("The difference of d and b is ", e) 
+The difference of d and b is  20   
+  
+print (a > b)  
+True
+print (a < b)  
+False
+print (c == d) 
+True
+print (e == a) 
+True 
