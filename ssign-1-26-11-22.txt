@@ -1,0 +1,12 @@
+//program for bitwise operators//
+a=10
+b=12
+print(a&b)
+print(a|b)
+print(a^b)
+
+output:
+8
+14
+6
+>
