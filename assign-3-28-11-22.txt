@@ -1,0 +1,17 @@
+//transactio processing//
+bal=100000
+amount=int(input("enter amount"))
+if amount>bal:
+    print("insufficient balance in your account")
+    print("please try again")
+else:
+    d=bal-amount
+    print("transaction processing successfull")
+    print("debited amount",amount)
+    print("pending balance",d)
+
+output:
+enter amount 6000
+transaction processing successfull
+debited amount 6000
+pending balance 94000

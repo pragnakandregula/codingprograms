@@ -1,0 +1,11 @@
+//greatest of numbers//
+a=100
+num=int(input("enter the numbber"))
+if num<a:
+     print("number is less than 100")
+else:
+     print("number grater than 100")
+
+output:
+enter the numbber 234
+number grater than 100

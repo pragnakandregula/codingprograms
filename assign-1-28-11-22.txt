@@ -1,0 +1,13 @@
+//pin program//
+originalpin=123456
+pin=int(input("enter the pin:"))
+if originalpin==pin:
+    print("continue the transaction")
+else:
+    print("incorrect pin number")
+    print("please try again")
+
+output:
+enter the pin:234567
+incorrect pin number
+please try again
