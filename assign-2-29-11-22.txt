@@ -1,0 +1,41 @@
+//employee tax//
+empo=int(input('enter employee number:'))
+empname=input('enter employee name:')
+empdesig=input('enter employee designation:')
+basicsalary=int(input('Enter basic salary:'))
+da=int(input('enter daily allowance:'))
+ta=int(input('enter travel allowance: '))
+hra=int(input('enter house rental allowance: '))
+netsalary=basicsalary+da+ta+hra
+print('Employee nunber:',empo)
+print('Employee name:',empname)
+print('Designation:',empdesig)
+print('Basic salary',basicsalary)
+if netsalary>100000:
+    tax=netsalary*10/100
+    print('Tax:',tax)
+elif netsalary>50000:
+    tax=netsalary*7/100
+    print('Tax:',tax)
+elif netsalary>40000:
+    tax=netsalary*4/100
+    print('Tax:',tax)
+elif netsalary>20000:
+    tax=netsalary*2/100
+    print('Tax:',tax)
+else:
+    print('Tax is zero')
+
+output:
+enter employee number:2424
+enter employee name:jai
+enter employee designation:Manager
+Enter basic salary:50000
+enter daily allowance:2000
+enter travel allowance: 5000
+enter house rental allowance: 10000
+Employee nunber: 2424
+Employee name: jai
+Designation: Manager
+Basic salary 50000
+Tax: 4690.0
