@@ -1,0 +1,34 @@
+//assignment-1//
+wheat=250
+sugar=45
+maggie=80
+oil=200
+b_rice=1200
+print("********* menu **********")
+print("wheat ",wheat)
+print("sugar ",sugar)
+print("maggie ",maggie)
+print("oil ",oil)
+print("b_rice ",b_rice)
+name=input("enter your name:")
+cphno=int(input("enter your ph no:"))
+address=input("enter your address:")
+w=int(input("enter no of wheat bags u want:"))
+s=int(input("enter no of sugar bags u want:"))
+m=int(input("enter no of maggie packets u want:"))
+o=int(input("enter no of oil packets u want:"))
+b=int(input("enter no of rice packets u want:"))
+bill=(wheat*w)+(sugar*s)+(maggie*m)+(oil*o)+(b_rice*b)
+if bill>3000:
+          tax=bill*5/100
+elif bill>2000:
+          tax=bill*7/100
+elif bill>1000:
+          tax=bill*10/100
+elif bill>500:
+          tax=bill*15/100
+else:
+          tax=100
+total=tax+bill
+print(name,cphno,address,bill,tax,total,sep=' ')
+
