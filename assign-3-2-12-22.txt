@@ -1,0 +1,35 @@
+//leap year or not//
+#way one
+
+def is_leap(year):
+if year%4==0 :
+     print('yes')
+else : 
+     print('no')
+year=int(input())
+is_leap(year):
+
+
+#way two
+
+def is_leap(year):
+if year%4==0 :
+return 'leap'
+else 
+return 'not a leap'
+year=int(input())
+is_leap(year):
+print(is_leap(year))
+
+#way three
+
+def is_leap(year):
+if year%4==0 :
+return 'true'
+else :
+return 'false'
+year=int(input())
+is_leap(year):
+print('leap')
+else :
+print('not a leap')

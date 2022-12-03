@@ -1,0 +1,38 @@
+//biggest of two numbers//
+#way one
+
+def biggest(a,b):
+if a>b :
+print('a is big')
+else : 
+print('b is big')
+a=int(input())
+b=int(input())
+biggest(a,b)
+
+#way two
+
+def biggest(a,b):
+if a>b :
+return 'a is big'
+else 
+return 'b is big'
+a=int(input())
+b=int(input())
+biggest(a,b)
+print(biggest(a,b))
+
+#way three
+
+def biggest(a,b):
+if a>b :
+return 'a is big'
+else :
+return 'b is big'
+a=int(input())
+b=int(input())
+if (biggest(a,b)) :
+print('a is big')
+else :
+print('b is big')
+

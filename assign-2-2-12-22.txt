@@ -1,0 +1,34 @@
+// eligible for vote//
+#way one
+
+def eligible(n):
+if n>=18 :
+print('eligible')
+else : 
+print('not eligible')
+n=int(input())
+eligible(n)
+
+#way two
+
+def eligible(n):
+if n>=18 :
+return 'yes eligible for vote'
+else 
+return 'no not eligible for vote'
+n=int(input())
+eligible(n)
+print(eligible(n))
+
+#way three
+
+def eligible(n):
+if n>=18 :
+return 'yes'
+else :
+return 'no'
+n=int(input())
+if (n>=18) :
+print('yes eligible for vote')
+else :
+print('no not eligible for vote')
