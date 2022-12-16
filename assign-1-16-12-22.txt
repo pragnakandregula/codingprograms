@@ -1,0 +1,10 @@
+str1=input("Enter a string: ");
+length=len(str1)
+print("No.of characters of the given string",length);
+str2=input("Enter a string in lower case letters");
+print(str2.upper())
+str3=input("Enter a string in upper case letters");
+print(str3.lower())
+str4=input("Enter a string in both upper and lower case letters: ");
+print(str4.upper())
+print(str4.lower())

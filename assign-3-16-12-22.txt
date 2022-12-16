@@ -1,0 +1,13 @@
+str=input("Enter a string");
+n=len(str)
+print("Length of the string",n);
+count=0;
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        print(str[i]," is an digit")
+    else:
+        print(str[i],"is not an digit")
+for i in str:
+   if(i.isdigit()):
+     count=count+1;
+print("No.of digits in string are:",count)

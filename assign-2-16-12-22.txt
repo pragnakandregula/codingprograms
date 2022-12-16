@@ -1,0 +1,12 @@
+str=input("Enter a string");
+n=len(str)
+count=0;
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        print(str[i]," is an alphabet")
+    else:
+        print(str[i],"is not an alphabet")
+for i in str:
+   if(i.isalpha()):
+     count=count+1;
+print("No.of charcters in string are:",count)
