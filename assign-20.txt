@@ -1,0 +1,26 @@
+Write a program to maximum prime number and minimum prime number from the given list.
+def find_max_min_primes(numbers):
+  def is_prime(n):
+    if n < 2:
+      return False
+    for i in range(2, int(n ** 0.5) + 1):
+      if n % i == 0:
+        return False
+    return True
+  max_prime = float("-inf")
+  min_prime = float("inf")
+  for number in numbers:
+    if is_prime(number):
+      if number > max_prime:
+        max_prime = number
+      if number < min_prime:
+        min_prime = number
+  return (max_prime, min_prime)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+max_prime, min_prime = find_max_min_primes(numbers)
+print(f"Maximum prime: {max_prime}")
+print(f"Minimum prime: {min_prime}")
+
+output
+Maximum prime: 7
+Minimum prime: 2
