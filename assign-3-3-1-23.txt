@@ -1,0 +1,24 @@
+n=int(input())
+a=[]
+sum1=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+        a.append(l)
+for i in range(n):
+    for j in range(n):
+        if i==j:
+            sum1=sum1+a[i][j]
+sum2=0
+for i in range(n,n-1):
+    l=[]
+    for j in range(n,n-1):
+        x=int(input())
+        l.append(x)
+        a.append(l)
+for i in range(n):
+    for j in range(n):
+        if i+j==n-1:
+            sum2=sum2+a[i][j]
