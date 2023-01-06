@@ -1,0 +1,21 @@
+n=int(input())
+m=[]
+res=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+            x=m[i][j]
+            res.append(x)
+        if i+j==n-1:
+            x=m[i][j]
+            res.append(x)
+for i in range(0,n):
+    for j in range(0,n):
+        print(m[i][j],end='  ')
+    print()
