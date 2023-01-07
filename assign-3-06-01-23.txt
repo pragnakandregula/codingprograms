@@ -1,0 +1,7 @@
+email=input()
+    if email.endswith("@gmail.com") or email.endswith("@yahoo.com") or email.startswith("@adc.aditya.ac.in"):
+        print('your using google account')
+    elif:
+         print('your using yahoo account')
+else:
+    print('your using aditya instuation account')

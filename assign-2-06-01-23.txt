@@ -1,6 +1,10 @@
-list=[4,8,9,10,11,12]
-for i  in list:
-	if(i%2 == 0):
-	    list.remove(i)
-print ("list after removing EVEN numbers:")
-print (list)
+email=input()
+phno=int(input())
+if len(phno)==10:
+    if phno.startswith("9"):
+       if email.endswith("@gmail.com"):
+        print('registraction succsfully')
+    else:
+         print('check your details')
+else:
+    print('check your details')
