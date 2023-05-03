@@ -1,0 +1,11 @@
+d={}
+s=input('enter para')
+for i in s:
+    if i not in d:
+        d[i]=1
+    else:
+        d[i]=d[i]+1
+m=max(list(d.values()))
+for i in d:
+    if d[i]==m:
+        print(i,d[i])
