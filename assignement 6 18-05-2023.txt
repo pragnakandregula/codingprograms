@@ -1,0 +1,12 @@
+#subarray sum >=k
+l=list(map(int,input().split()))
+k=int(input())
+n=len(l)
+c=0
+for i in range(0,n):
+    sum=1
+    for j in range(i,n):
+        if sum*l[j]>=k:
+            c=c+1
+        sum=sum*l[j]       
+print(c)
